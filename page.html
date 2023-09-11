@@ -1,10 +1,164 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
+<!-- root of DOM -->
   <head>
+    <div><title>CAMPUS TOUR @ NYUAD</title></div>
+
+    <!-- search bar settings-->
+    <style>
+      * {box-sizing: border-box;}
+
+      body {
+        margin: 0;
+        margin-top: 0;
+        font-family: sans-serif;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #57068C;
+      }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover  {
+        background-color: D070FB;
+        color: white;
+      }
+
+      .topnav .search-box {
+        float: right;
+      }
+
+      .topnav input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+      }
+
+      .topnav .search-container button {
+        float: right;
+        padding: 14px 16px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .topnav .search-container button:hover {
+        background: #ccc;
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav .search-container {
+          float: none;
+        }
+        .topnav a, .topnav input[type=text], .topnav .search-container button {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+          margin: 0;
+          padding: 14px;
+        }
+        .topnav input[type=text] {
+          border: 1px solid #ccc;  
+        }
+      }
+    </style>
+
+    <!-- gallery settings -->
     <meta charset="utf-8">
-    <title></title>
+
+    <title>Image Gallery</title>
+    <meta name="description" content="Responsive Image Gallery">
+    <meta name="author" content="Tim Wells">
+
+    <style type="text/css">
+    </style>
   </head>
+
   <body>
-    page 2 whatever
+    <!-- Background insert-->
+    <br/>
+    <style>
+      body  {
+        background-image: url('campus.jpg');
+        background-position-x: center;
+        background-repeat: repeat-y;
+
+        opacity: 1;
+      }
+    </style>
+
+    <!-- Search bar insert-->
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="page.html">About This Page</a>
+      <a href="page.html">Contact</a>
+      <div class="search-box">
+        <form action="page.html">
+          <input type="text" placeholder="Search...">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- All the content of the webpage -->
+    <font color="#57068C"><h1>NYU ABU DHABI</h1></font>
+    <center><b><font size="7">CAMPUS TOUR</font></b></center>
+    <h1></h1>
+
+    <!-- Tab links -->
+    <div class="tab">
+      <center> 
+        <button class="tablinks"><a href="page.html">FAMOUS SITES</a></button>
+        <button class="tablinks"><a href="page.html">DORM</a></button>
+        <button class="tablinks"><a href="page.html">FACILITIES</a></button>
+        <button class="tablinks"><a href="page.html">STUDENT LIFE</a></button>
+        <button class="tablinks"><a href="page.html">GALLERY</a></button>
+      </center>
+    </div>
+
+    <!-- gallery -->
+    <div id="gallery">
+
+    <img src="image-001.jpg">
+    <img src="image-002.jpg">
+    <img src="image-003.jpg">
+    <img src="image-004.jpg">
+    <img src="image-005.jpg">
+    <img src="image-006.jpg">
+    <img src="image-007.jpg">
+    <img src="image-008.jpg">
+    <img src="image-009.jpg">
+    <!-- 
+    <img src="image-010.jpg">
+    <img src="image-011.jpg">
+    <img src="image-012.jpg">
+    <img src="image-013.jpg">
+    <img src="image-014.jpg">
+    <img src="image-015.jpg">
+    <img src="image-016.jpg">
+    <img src="image-017.jpg">
+    <img src="image-018.jpg">
+    <img src="image-019.jpg">
+    <img src="image-020.jpg">
+    <img src="image-021.jpg">
+    <img src="image-022.jpg">
+    <img src="image-023.jpg">
+    <img src="image-024.jpg">
+-->
+    </div>
   </body>
 </html>
