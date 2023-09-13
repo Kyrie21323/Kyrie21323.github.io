@@ -1,0 +1,134 @@
+<html>
+<!-- root of DOM -->
+  <head>
+    <div><title>CAMPUS TOUR @ NYUAD</title></div>
+
+    <!-- search bar settings-->
+    <style>
+      * {box-sizing: border-box;}
+
+      body {
+        margin: 0;
+        margin-top: 0;
+        font-family: sans-serif;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #57068C;
+      }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover  {
+        background-color: D070FB;
+        color: white;
+      }
+
+      .topnav .search-container {
+        float: right;
+      }
+
+      .topnav input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+      }
+
+      .topnav .search-container button {
+        float: right;
+        padding: 14px 16px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .topnav .search-container button:hover {
+        background: #ccc;
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav .search-container {
+          float: none;
+        }
+        .topnav a, .topnav input[type=text], .topnav .search-container button {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+          margin: 0;
+          padding: 14px;
+        }
+        .topnav input[type=text] {
+          border: 1px solid #ccc;  
+        }
+      }
+    </style>
+
+    <!-- gallery settings -->
+    <meta charset="utf-8">
+
+    <title>Image Gallery</title>
+    <meta name="description" content="Responsive Image Gallery">
+    <meta name="author" content="Tim Wells">
+
+    <style type="text/css">
+    </style>
+  </head>
+
+  <body>
+    <!-- Background insert-->
+    <br/>
+    <style>
+      body  {
+        background-image: url('campus.jpg');
+        background-position-x: center;
+        background-repeat: repeat-y;
+
+        opacity: 1;
+      }
+    </style>
+
+    <!-- Search bar insert-->
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About This Page</a>
+      <a href="contact.html">Contact</a>
+      <div class="search-container">
+        <form action="search.html">
+          <input type="text" placeholder="Search...">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- All the content of the webpage -->
+    <font color="#57068C"><h1>NYU ABU DHABI</h1></font>
+    <center><b><font size="7">CONTACTS</font></b></center>
+    <h1></h1>
+
+    <!-- Tab links -->
+    <div class="tab">
+      <center> 
+        <button class="tablinks"><a href="famsites.html">FAMOUS SITES</a></button>
+        <button class="tablinks"><a href="dorm.html">DORM</a></button>
+        <button class="tablinks"><a href="facility.html">FACILITIES</a></button>
+        <button class="tablinks"><a href="studlife.html">STUDENT LIFE</a></button>
+        <button class="tablinks"><a href="gallery.html">GALLERY</a></button>
+      </center>
+    </div>
+    </div>
+  </body>
+</html>
