@@ -1,1 +1,8 @@
 # Kyrie21323.github.io
+## Project Name:  Walk with me
+Back when I was applying for NYUAD, I wanted to get a closer look to the university's campus. To me however, the official website of NYUAD did not provide enough student's view or their life on campus. From such concerns, I have decided to create a website that shows the campus in the students' point of view. With the 'Walk With Me' video and the gallery section that shows various sites within the campus, I believe this website will give insights to many people who wants to get to know NYUAD.
+The overall concept of my website is a little glimpse of the student's view on campus, such as daily lives, and photos took by students giving the viewers an unofficial look at the campus. I imagined my viewers to be parents of current or future students, as well as students who want to go to nyuad. Since freshmen had no ideo of how the campus looked like, due to the absence of candidate weekend because of COVID-19, I wanted to share my view on the campus.
+
+## Problems
+At first, I wanted to build different pages including famous sites, facilities, and dorms. However, I thought it would be too repetitive, and decided to put all of the photos in one page, named "gallery". I think this change of path made my website much more accessible for the viewers, and less confusing.
+The initial thought of my gallery page was to make it look like pinterest, where the difference of size in images created a more free-looking gallery. However, after multiple times of trying it out, it figured out it was too hard for me, and changed it to have equal margins. Except for this, I believe I was well processed while working on the assignment.
