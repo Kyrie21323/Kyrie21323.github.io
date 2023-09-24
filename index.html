@@ -1,87 +1,63 @@
 <html>
 <!-- root of DOM -->
   <head>
-    <div><title>CAMPUS TOUR @ NYUAD</title></div>
+    <div><title>CAMPUS LIFE @ NYUAD</title></div>
+    <!-- menu settings-->
     <style>
-      * {box-sizing: border-box;}
-
       body {
         margin: 0;
-        margin-top: 0;
         font-family: sans-serif;
       }
 
-      .topnav {
+      .topbar {
         overflow: hidden;
-        background-color: #57068C;
+        background-color: #7500CF;
       }
 
-      .topnav a {
+      .topbar a {
         float: left;
         display: block;
-        color: black;
+        color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
       }
 
-      .topnav a:hover  {
+      .topbar a:hover  {
         background-color: D070FB;
+        color: black;
+      }
+
+      .botbar {
+        overflow: hidden;
+        background-color: #7500CF;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .botbar a {
+        float: left;
+        display: block;
         color: white;
-      }
-
-      .topnav .search-container {
-        float: right;
-      }
-
-      .topnav input[type=text] {
-        padding: 6px;
-        margin-top: 8px;
-        font-size: 17px;
-        border: none;
-      }
-
-      .topnav .search-container button {
-        float: right;
+        text-align: center;
         padding: 14px 16px;
-        margin-top: 8px;
-        margin-right: 16px;
-        background: #ddd;
+        text-decoration: none;
         font-size: 17px;
-        border: none;
-        cursor: pointer;
       }
-
-      .topnav .search-container button:hover {
-        background: #ccc;
-      }
-
-      @media screen and (max-width: 600px) {
-        .topnav .search-container {
-          float: none;
-        }
-        .topnav a, .topnav input[type=text], .topnav .search-container button {
-          float: none;
-          display: block;
-          text-align: left;
-          width: 100%;
-          margin: 0;
-          padding: 14px;
-        }
-        .topnav input[type=text] {
-          border: 1px solid #ccc;  
-        }
+      .botbar a.active {
+        background-color: #BF5700;
+        color: white;
       }
     </style>
   </head>
 
   <body>
     <!-- Background insert-->
-    <br/>
     <style>
       body  {
-        background-image: url('campus.jpg');
+        background-image: url('background.jpg');
         background-position-x: center;
         background-repeat: repeat-y;
 
@@ -89,62 +65,41 @@
       }
     </style>
 
-    <!-- Search bar insert-->
-    <div class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <a href="about.html">About This Page</a>
-      <a href="contact.html">Contact</a>
-      <div class="search-container">
-        <form action="search.html">
-          <input type="text" placeholder="Search...">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-      </div>
+    <!-- Menu bar insert-->
+    <div class="topbar">
+      <b><a class="active" href="index.html">HOME</a>
+      <a href="about.html">ABOUT THIS PAGE</a>
+      <a href="gallery.html">GALLERY</a></b>
+    </div>
+
+    <!--Contact bar insert-->
+    <div class="botbar">
+      <a class="active">CONTACT</a>
+      <a>kp2733@nyu.edu</a>
+      <a>+82 10-2588-5180</a>
+      <a>kyrie.parkk</a>
     </div>
 
     <!-- All the content of the webpage -->
-    <font color="#57068C"><h1>NYU ABU DHABI</h1></font>
-    <center><b><font size="7">CAMPUS TOUR</font></b></center>
-    <h1></h1>
+    <br>
+    <center><b><font size="7">WALK WITH US</font></b></center>
+    <br>
 
-    <!-- Tab links -->
-    <div class="tab">
-      <center> 
-        <button class="tablinks"><a href="famsites.html">FAMOUS SITES</a></button>
-        <button class="tablinks"><a href="dorm.html">DORM</a></button>
-        <button class="tablinks"><a href="facility.html">FACILITIES</a></button>
-        <button class="tablinks"><a href="studlife.html">STUDENT LIFE</a></button>
-        <button class="tablinks"><a href="gallery .html">GALLERY</a></button>
-      </center>
-    </div>
-
-    <center><h1>WALK WITH ME</h1></center>
-
+    <center><b><font size="4">NYUAD, located in Saadiyat Island, is a residential research university and a branch of NYU New York.
+      <br>NYUAD's campus is well known to their students for having a beautiful campus, which was designed by Rafael Viñoly.
+      <br>
+      <br>For incoming students, students who want to get to know NYUAD,
+      <br>and even currents students that want to know the campus even further,
+      <br>below is a quick walk video to some of the campus' main facilities.
+    </font></b></center>
+    <br>
 
     <!-- Youtube link insert -->
     <center>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/5GCR8kkm2Ck?si=nGu4juoiWHQyxSvG">
+      <iframe width="896" height="504" src="https://www.youtube.com/embed/5GCR8kkm2Ck?si=nGu4juoiWHQyxSvG">
       </iframe>
     </center>
-
-    
-    <br/>
-    <!-- images
-    <img src="cat-cat-dance.gif" alt-text="what is the image of" />
-    <img src="https://media.istockphoto.com/photos/european-short-haired-cat-picture-id1072769156?k=20&m=1072769156&s=612x612&w=0&h=k6eFXtE7bpEmR2ns5p3qe_KYh098CVLMz4iKm5OuO6Y=" />
-    <a href="http://duckduckgo.com"><img src="kitty.jpg" alt-text="what is the image of" /></a>
-    <img src="kitty.jpg" alt-text="what is the image of" />
-
-
-
-    <div id="my-unique-id">
-      a genertic division/block in the <span>page</span>
-    </div>
-
-    <a href="page.html">I am a link to another page</a>
-    <a href="#my-unique-id">internal link</a>
-    -->
-
-
+    <br><br><br><br><br><br><br><br><br>
+    <a></a>
   </body>
 </html>
